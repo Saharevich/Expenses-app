@@ -1,0 +1,230 @@
+body {
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+
+p, h1, h2, ol {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-position: inside;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+.body-fixed {
+    overflow: hidden;
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px 10px;
+}
+
+.expenses-title {
+    margin-bottom: 41px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.expenses-push {
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.expenses-form {
+    width: calc(60% - 25px);
+    flex-direction: column;
+    gap: 18px;
+}
+
+.expenses-push__input {
+    border: none;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: black;
+}
+
+.money-value {
+    display: flex;
+    justify-content: space-between;
+    padding: 7.5px 10px;
+    font-size: 32px;
+    line-height: 39px;
+    border: 1px solid #000;
+}
+
+.currency::after {
+    content: ' руб.';
+    font-size: inherit;
+}
+
+.category-list {
+    padding: 10px 10px;
+    width: 100%;
+    height: 58px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.expenses-push__btn {
+    padding: 10px 0px;
+    box-sizing: border-box;
+    width: calc(40% - 25px);
+    height: 58px;
+    font-size: 32px;
+    line-height: 39px;
+    color: #fff;
+    background-color: #0094ff;
+}
+
+.expenses-text {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.expenses-text__left {
+    width: calc(60% - 25px);
+}
+
+.expenses-text__limit, 
+.limit,
+.expenses-text__limit__sum,
+.expenses-text__limit__status {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.limit, .sum, .limit__status {
+    font-weight: 400;
+}
+
+.expenses-text__limit__status {
+    margin-bottom: 112px;
+}
+
+.expenses-reset {
+    padding: 10px 0px;
+    width: 100%;
+    font-size: 32px;
+    line-height: 39px;
+    color: #fff;
+    background-color: #ff0000;
+}
+
+.expenses-text__right {
+    width: calc(40% - 25px);
+}
+
+.expenses-text__history {
+    margin-bottom: 21px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.expenses-text__list {
+    font-size: 22px;
+    line-height: 39px;
+    word-wrap: unset;
+}
+
+.limit__status {
+    color: green;
+}
+
+.status__red {
+    color: red;
+}
+
+.settings-limit {
+    width: 42px;
+    height: 42px;
+    background-color: rgba(253, 253, 253, 0.23);
+    background-image: url('./picture/settings-limit.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.popup-open {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    padding: 47px 47px;
+    position: relative;
+    width: 60%;
+    height: 60%;
+    background-color: #fff;
+}
+
+.set-limit {
+    gap: 28px;
+    height: 100%;
+    align-items: center;
+}
+
+.settings-input {
+    display: flex;
+    padding: 6px 17px 10px 22px;
+    width: 50%;
+    border: 1px solid #000;
+}
+
+.popup-input {
+    border: none;
+    width: 90%;
+}
+
+.popup-btn {
+    width: 45%;
+    padding: 10px 0px;
+    color: #fff;
+    background-color: #0094ff;
+}
+
+.close-btn {
+    position: absolute;
+    top: 39px;
+    right: 34px;
+    width: 29px;
+    height: 29px;
+    background-color: #fff;
+    background-image: url('./picture/close-btn.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
