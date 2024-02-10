@@ -41,8 +41,6 @@ button {
 .expenses-title {
     margin-bottom: 41px;
     font-weight: 700;
-    font-size: 32px;
-    line-height: 39px;
 }
 
 .expenses-push {
@@ -59,8 +57,6 @@ button {
 .expenses-push__input {
     border: none;
     font-weight: 400;
-    font-size: 32px;
-    line-height: 39px;
     color: black;
     background-color: #f6cfd3;
 }
@@ -69,8 +65,6 @@ button {
     display: flex;
     justify-content: space-between;
     padding: 7.5px 10px;
-    font-size: 32px;
-    line-height: 39px;
     border: 1px solid #000;
 }
 
@@ -84,8 +78,6 @@ button {
     width: 100%;
     height: 58px;
     font-weight: 400;
-    font-size: 32px;
-    line-height: 39px;
     background-color: #f6cfd3;
 }
 
@@ -94,10 +86,9 @@ button {
     box-sizing: border-box;
     width: calc(40% - 25px);
     height: 58px;
-    font-size: 32px;
-    line-height: 39px;
     color: #fff;
     background-color: #0094ff;
+    border-radius: 10px;
 }
 
 .expenses-text {
@@ -119,8 +110,6 @@ button {
 .expenses-text__limit__sum,
 .expenses-text__limit__status {
     font-weight: 700;
-    font-size: 32px;
-    line-height: 39px;
 }
 
 .limit, .sum, .limit__status {
@@ -134,10 +123,9 @@ button {
 .expenses-reset {
     padding: 10px 0px;
     width: 100%;
-    font-size: 32px;
-    line-height: 39px;
     color: #fff;
     background-color: #ff0000;
+    border-radius: 10px;
 }
 
 .expenses-text__right {
@@ -151,13 +139,10 @@ button {
 .expenses-text__history {
     margin-bottom: 21px;
     font-weight: 700;
-    font-size: 32px;
-    line-height: 39px;
 }
 
 .expenses-text__list {
     font-size: 22px;
-    line-height: 39px;
     word-wrap: unset;
 }
 
@@ -228,6 +213,7 @@ button {
     padding: 10px 0px;
     color: #fff;
     background-color: #0094ff;
+    border-radius: 10px;
 }
 
 .close-btn {

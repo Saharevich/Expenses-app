@@ -1,0 +1,101 @@
+@media (max-width: 968px) {
+    .expenses-form {
+        width: 100%;
+    }
+
+    .money-value {
+        width: calc(50% - 10px);
+    }
+
+    .expenses-form {
+        width: 100%;
+        flex-direction: row;
+        gap: 18px;
+    }
+
+    .expenses-push__input {
+        width: 80%;
+    }
+
+    .expenses-push__btn {
+        width: 100%;
+    }
+
+    .category-list {
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .expenses-title {
+        margin-bottom: 20px;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .expenses-push__btn, .expenses-reset {
+        font-size: 22px;
+    }
+
+    .expenses-text__left {
+        width: 100%;
+    }
+
+    .expenses-text__right {
+        width: 100%;
+    }
+
+    .settings-limit {
+        width: 22px;
+        height: 22px;
+    }
+
+    .expenses-text__limit__status {
+        margin-bottom: 30px;
+    }
+
+    .expenses-text__limit, 
+    .limit,
+    .expenses-text__limit__sum,
+    .expenses-text__limit__status,
+    .limit, .sum, .limit__status {
+        font-size: 22px;    
+    }
+
+    .currency::after {
+        font-size: 22px;
+    }
+
+    .category-list {
+        font-size: 22px;
+    }
+
+    .expenses-text__history {
+        font-size: 22px;
+    }
+
+    .popup-content {
+        padding: 20px 20px;
+    }
+
+    .popup-title {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    .settings-input {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    .popup-btn {
+        font-size: 22px;
+    }
+
+    .close-btn {
+        width: 22px;
+        height: 22px;
+        top: 20px;
+        right: 20px;
+    }
+}

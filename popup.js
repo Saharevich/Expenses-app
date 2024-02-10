@@ -17,6 +17,7 @@ newLimitBtnNode.addEventListener('click', function() {
     localStorage.setItem('LIMIT', newLimit);
 
     POPUP.classList.remove('popup-open');
+    bodyScroll.classList.remove('body-fixed');
 
     render();
 })
